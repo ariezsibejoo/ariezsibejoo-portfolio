@@ -1,0 +1,144 @@
+:root {
+    --Green1: #155750;
+    --Green2: #00bd95;
+    --Green3: #01dfac;
+    --bg : #21272f;
+}
+
+body {
+    font-family: "Helvetica", sans-serif;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbarhero {
+    /* font-family: "Acumin Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+    background-color: var(--bg);
+    color: white;
+    /* height: 100vh; */
+}
+
+/* NAVBAR */
+
+.search {
+    background-color: transparent;
+    border: 1px solid var(--Green2);
+}
+
+.fa-search {
+    color: white;
+}
+
+#search {
+    border:none; 
+    background-color: transparent; 
+    color: white;
+    font-size: 0.9rem;
+}
+
+#search:focus {
+    border: none;
+    background-color: transparent; 
+}
+
+.logo {
+    letter-spacing: 0.15rem;
+    color: var(--Green3);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--Green3);
+}
+/* END NAVBAR */
+
+/* HERO */
+.hello {
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+
+.hello:hover {
+    background-color: #00bd95;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+
+.im {
+    color: var(--Green2);
+}
+
+.aris {
+    color: var(--Green3);
+}
+
+.tagline {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-me {
+    background-color: var(--Green2);
+    font-family: 'Helvetica', sans-serif;
+    letter-spacing: 0.1rem;
+    border: none;
+}
+
+.contact-me:hover {
+    background-color: var(--Green3);
+    border: none;
+}
+
+/* END HERO */
+
+
+/* SERVICE */
+
+#service {
+    background-color: #181c22;
+    /* height: 100vh; */
+}
+
+.text-services {
+    color: var(--Green3);
+}
+
+.what {
+    letter-spacing: 2px;
+}
+
+.my-card-body {
+    background-color: var(--bg);
+    border-radius: 25px;
+    height: 15rem;
+    padding: 10px;
+    color: var(--Green3);
+}
+
+section#service i{
+    font-size: 4rem;
+}
+
+section#service p{
+    font-family: 'Acumin Pro', sans-serif;
+    color: white;
+}
+/* END SERVICE */
+
+/* PROJECT */
+section#project {
+    background-color: var(--bg);
+}
+
+.project span {
+    color: var(--Green3);
+}
+
+/* END PROJECT */
